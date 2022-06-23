@@ -1,0 +1,168 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+  background-color: lavender;
+}
+
+button {
+ outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.semi-color-1 {
+  color: palevioletred;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.semi-color-2 {
+  color: rgb(223, 190, 6);
+}
+
+/* CONTENT DESIGN */
+.content {
+  display: block;
+  color: white;
+  background-color: rgb(3, 3, 146);
+  border-radius: 0 0 0 30px;
+}
+
+.phone-link {
+  color: rgb(3, 3, 146);
+  background-color: white;
+  font-size: larger;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 0.1rem solid white;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+.phone-link:hover {
+  color: white;
+  background-color: rgb(3, 3, 146);
+  box-shadow: 0 0 0 4px rgb(255, 255, 255, 0.4);
+}
+
+.client-logo {
+  font-size: larger;
+  font-weight: 800;
+}
+
+.visa-icon {
+  font-size: x-large !important;
+  color: blue;
+}
+.mag-icon {
+  color: rgb(94, 255, 0);
+}
+.deck-icon {
+  color: rgb(0, 183, 255);
+}
+
+.article {
+  background-color: white;
+  border-radius: 0 50px 0 0;
+}
+
+.article-card {
+  height: 100%;
+  color: palevioletred;
+  background: rgb(3, 3, 146);
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 0 5px rgb(3, 3, 146, 0.3);
+  transition: all 0.7s ease-in-out;
+}
+.article-card:hover {
+  background-color: rgb(6, 0, 88);
+  transform: rotateY(360deg) scale(1.1);
+}
+
+.icon {
+  color: rgb(6, 207, 147);
+  font-size: 5rem;
+  background-color: white;
+  border-radius: 50% 50%;
+}
+
+/* HELP */
+.help {
+  color: white;
+  background-color: rgb(3, 3, 146, 0.8);
+  border-radius: 0 50px 0 50px;
+}
+
+.help-card {
+  cursor: pointer;
+  background-color: rgb(6, 0, 88);
+  border-bottom: 0.03rem solid gray;
+  transition: all 0.4s ease-in-out;
+}
+.help-card:hover {
+  background-color: rgb(5, 5, 133);
+}
+
+.img-border {
+  border-radius: 15px;
+  box-shadow:  -10px 10px 0 0.04px rgb(119, 0, 255);
+}
+
+.work-card {
+  height: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.work-card:hover {
+  box-shadow: 1px 4px 20px 2px rgb(0, 0, 0, 0.3);
+}
+
+.card-link {
+  font-weight: 700;
+  text-decoration: none !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid rgb(27, 27, 255);
+}
+.card-link:hover {
+  color: rgb(147, 10, 211);
+}
+
+.img-round-border {
+  margin-left: 0 !important;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: blue transparent;
+  border-radius: 50%;
+}
+
+.talk-btn {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(24, 24, 153);
+  font-size: larger;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0.1rem solid rgb(24, 24, 153);
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+}
+.talk-btn:hover {
+  color: rgb(24, 24, 153);
+  background-color: white;
+  box-shadow: 0 0 0 4px rgb(24, 24, 153, 0.4);
+}
+
+/* FOOTER */
+footer {
+  color: white;
+  background-color: rgb(1, 1, 31);
+}
+ .footer-icon {
+   font-size: xx-large;
+ }

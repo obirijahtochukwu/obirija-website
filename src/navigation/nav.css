@@ -1,0 +1,102 @@
+/*GENERAL VARIABLE*/
+.blue {
+ background-color: rgb(3, 3, 146);
+}
+
+.h-100 {
+ height: 100vh !important;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*SIDE BAR*/
+.top-bar {
+ font-size: x-large;
+ font-weight: 900;
+ border-bottom: 0.04rem solid rgb(199, 172, 172);
+}
+.top-bar div {
+ cursor: pointer;
+}
+
+.modal-local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  transform: scale(0) rotate(1.3turn);
+  transition: 0.5s;
+}
+.modal-local.show {
+  visibility: visible;
+  transform: scale(1);
+}
+.modal-local main {
+  position: relative;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(3, 3, 146);
+  min-width: 70vw;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  border-radius: 14px;
+}
+.modal-local div {
+  transition: all 0.4s ease-in-out;
+}
+.modal-local div:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.close-btn {
+  position: absolute;
+  right: -2rem;
+  top: -2rem;
+  font-size: x-large;
+  background-color: rgb(238, 6, 84);
+  border-radius: 50%;
+}
+.close-btn:hover {
+  background-color: rgb(238, 6, 84) !important;
+}
+
+/* DESKTOP NAVBAR */
+.desktop {
+  color: white;
+  background-color: rgb(3, 3, 146);
+  border-bottom: 0.04rem solid rgb(199, 172, 172);
+}
+
+.logo {
+  cursor: pointer;
+  color: rgb(6, 238, 199);
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.d-link {
+  cursor: pointer;
+  font-size: large;
+  font-style: italic;
+  transition: all 0.4s ease-in-out;
+  border-radius: 14px;
+}
+.d-link:hover {
+  color: rgb(3, 3, 146);
+  background-color: rgb(255, 255, 255, 0.9);
+}
+.desktop-active {
+  color: rgb(3, 3, 146);
+  background-color: white;
+}
