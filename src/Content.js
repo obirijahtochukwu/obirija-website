@@ -9,7 +9,7 @@ export default function Content() {
           <div className="col-12 col-md-6 col-lg-6 mx-auto">
             <p className="text-capitalize semi-color-1">obirijah tochukwu, a front-end web developer.</p>
             <h1>Specialized in creating sleek premium user interfaces with the help of  React.</h1>
-            <h6 className='semi-color-2'>I'm currently a user interface designer with 7 years of experience, now i work in one agency in indonesia. My hubby is making explorations visual appearance is clean and easy to use.</h6>
+            <h6 className='semi-color-2'>I'm currently a user interface designer and a front-end web developer with 2 years of experience, now i work in one agency in indonesia. My hubby is making explorations visual appearance is clean and easy to use.</h6>
             <a href="https://wa.me/+2349131772550" ><button className="phone-link px-3 py-2 my-3">let's talk <FaPhone/></button></a >
           </div>
           <div className="col-12 col-md-6 col-lg-4 mx-auto">
@@ -124,12 +124,12 @@ export default function Content() {
           <div className="row py-4">
             <h1 id='works' className='col-11 mx-auto my-4'>Work hard, successful client product.</h1>
             <div className="col-11 col-md-5 col-lg-3 mx-auto mb-4">
-              <div className="work-card mx-auto">
+              <div className="work-card mx-auto mb-3">
                 <img src="./Screenshot (19).png" alt="" className="w-100" />
                 <small className="text-muted">#Research #Development #Optimization</small>
                 <h5><b>Task management</b></h5>
                 <p>Take a look at how I used React to create a premium and smooth task managment website for VC-funded Stanford StartX-accelerated startup.</p>
-                <a href='https://mern-obj.netlify.app' className="card-link">View case study <FaArrowRight/></a>
+                <a href='https://mern-todo-obj.netlify.app' className="card-link">View case study <FaArrowRight/></a>
               </div>
             </div>
             <div className="col-11 col-md-5 col-lg-3 mx-auto mb-4 ">
@@ -156,7 +156,7 @@ export default function Content() {
                 <small className="text-muted">#Ecommerce #Design #Optimization</small>
                 <h5><b>JUMIA TRADE</b></h5>
                 <p>See how i created a pixel-perfect landing page for an ecommerce company that sales and deliver's home accessories and electronics gadget.</p>
-                <a href='https://jumia-ecommercee.netlify.app' className="card-link">View case study <FaArrowRight/></a>
+                <a href='https://ecommerce-obj.netlify.app' className="card-link">View case study <FaArrowRight/></a>
               </div>
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function Content() {
         <div className="container py-5">
           <h1 id='contact' style={{color: 'rgb(24, 24, 153)'}} className="text-center">Interested in working with me?</h1>
           <h6 className="text-center text-bold my-3">Do you need a digital product? Yes I can help you. I have 7 years of work experience as UI/UX and Front-End Web designer.</h6>
-          <div className="text-center"><a href="tel:+2349131772550" className="talk-btn px-4 py-1 my-2"> let's talk</a></div>
+          <div className="text-center"><a href="tel:+2349130420916" className="talk-btn px-4 py-1 my-2"> let's talk</a></div>
         </div>
       </article>
       <footer>
